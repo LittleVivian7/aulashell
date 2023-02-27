@@ -7,7 +7,7 @@
 #Vesão: 1.0
 #Licença:
 #Autor:Viviane dos Santos
-#E-mal:-
+#E-mal:vivian.infotechnology@gmail.com
 
 #################################
 
@@ -21,7 +21,6 @@ elif [ "$resposta" = "Terra" ]; then
 else
   zenity --info --text "Então me desculpe mas você é um lixo intergalático."
 fi
-
 
 
 

@@ -19,4 +19,3 @@ else
 fi
 
 zenity --text-info --title "Resultado da pesquisa" --width 400 --height 300 --editable --filename=- <<< "$formated_result"
-

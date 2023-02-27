@@ -7,7 +7,7 @@
 #Vesão: 1.0
 #Licença:
 #Autor:Viviane dos Santos
-#E-mal:-
+#E-mal:vivian.infotechnology@gmail.com
 #Colaborador: Rafhael de Moraes
 
 #################################
@@ -38,4 +38,3 @@ EOF
 
 # Exibe mensagem de sucesso usando zenity
 zenity --info --title "Sucesso!" --text "Informações salvas com sucesso!"
-

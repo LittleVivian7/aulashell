@@ -2,11 +2,11 @@
 
 #################################
 
-#Nome do script: login.sh
-#Descrição: Login.
+#Nome do script: -.sh
+#Descrição: -
 #Vesão: 1.0
 #Licença:
 #Autor:Viviane dos Santos
-#E-mal:-
+#E-mal:vivian.infotechnology@gmail.com
 
 #################################

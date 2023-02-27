@@ -4,19 +4,20 @@
 
 #Nome do script: tela.sh
 #Descrição: exibe tela de login.
-#Vesão: 1.0
+#Vesão: 2.0
 #Licença:
 #Autor:Viviane dos Santos
-#E-mal:-
+#E-mal:vivian.infotechnology@gmail.com
 
 #################################
 
-username=$(dialog --inputbox "entre com o usuario" 10 30 --output-fd 1)
-password=$(dialog --passwordbox "entre com a senha" 10 30 --output-fd 1)
+# Exibe a caixa de diálogo de login
+USERNAME=$(zenity --entry --title "Login" --text "Entre com o usuário:")
+PASSWORD=$(zenity --password --title "Login" --text "Entre com a senha:")
 
-if [ $username == "Vivian" ] && [%password == "123" ]; then
-
- dialog --msgbox "Acesso permitido" 10 30 
+# Verifica se o nome de usuário e senha estão corretos
+if [[ $USERNAME == "Vivian" && $PASSWORD == "123" ]]; then
+  zenity --info --title "Login" --text "Acesso permitido!"
 else
- dialog --msgbox "Acesso Negado" 10 30
+  zenity --error --title "Login" --text "Acesso negado!"
 fi

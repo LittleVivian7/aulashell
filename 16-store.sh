@@ -1,7 +1,5 @@
 #!/bin/bash
 
-#Lista apps que podem ser instalados.
-
 #################################
 
 #Nome do script:store.sh
@@ -9,10 +7,11 @@
 #Vesão: 1.0
 #Licença:
 #Autor:Viviane dos Santos
-#E-mal:-
+#E-mal:vivian.infotechnology@gmail.com
 
 #################################
 
+#Lista apps que podem ser instalados.
 options=("Vim" "Nano" "Chrome" "VSCode" "Quit")
 
 #Abre uma caixa zenity com as opções de app que podem ser instalados.
